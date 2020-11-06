@@ -13,9 +13,14 @@ The function should:
   2. Create and return an object using the received values  
 */
 
-function createMenuItem(/*Your code here*/){
-    /*Your code here*/
+function createMenuItem(name, price, category){
+  this.name = name;
+  this.price = price;
+  this.category = category;
+   
 }
+
+
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Test your createMenuItems function by doing the following:
@@ -25,6 +30,13 @@ Test your createMenuItems function by doing the following:
   
   For example: createMenuItem("pizza",5,"lunch") would return this as the object: {name:"Pizza",price:5,category:"lunch"}
 */
+
+const burger = new createMenuItem("Cheese Burger", "$5", "Lunch");
+const taco = new createMenuItem("Tacos Al Pastor", "6", "Lunch");
+const steak = new createMenuItem("T-Bone Steak", "$25", "Dinner");
+
+)
+
 
 
 
@@ -45,7 +57,14 @@ export const burger = {
   name: "Burger", 
   price: 18, 
   category: "Lunch", 
-  /*Your code here*/
+  function discount("Teacher", "Student", "Public"){
+  this.teacher = price*.75;
+  this.student = price*.75;
+  this.public = price*.90; }
+}
+return price.teacher;
+return price.student;
+return price.public;
 }
 
 
@@ -66,7 +85,7 @@ const reviews = [
 Using the reviews array above:
   1. log only Julius' feedback to the console
 */
-
+console.log(Julius.feedback());
 
 
 
@@ -76,6 +95,8 @@ Using the reviews array above do the following:
   2. log the whole array to the console, make sure the new review is inside of it   
 */
 
+reviews.push(name: "Pato",rating: "4.5", feedback: "Was a bit pricey, but I did enjoy the plant based protein options." );
+console.log(reviews());
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -84,7 +105,7 @@ Reyna's feedback is missing! Use what you know to do the following:
   2. log the reviews array to the console to check your work
 */
 
-
+reviews.push(reyna(feedback:"this place is chill with really cool people, great for getting work done on weekdays"));
 
 
 
@@ -102,6 +123,13 @@ function getReviewByIndex(/*Your code here*/) {
   /*Your code here*/
 }
 
+function getReviewByIndex(reviews,(i)){
+return ([$`{this.name} + "gave the restaurant a " + {this.rating} + "star review, and their feedback was: " + {feedback} + "."`]);
+}
+
+
+
+}
 
   
 
